@@ -1,0 +1,2 @@
+Yes there are more than one process that plays my music.
+The 2 process that plays music are : /system/bin/mediaserver & com.google.android.music:ui

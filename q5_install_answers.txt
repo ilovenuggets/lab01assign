@@ -1,0 +1,25 @@
+What’s the command to install an application? 
+1.Paste the APK file in the 'android-sdk\tools' or 'platform-tools' folder.
+2.adb install [.apk path]
+
+Example:
+adb install C:\Android_SDK\platform-tools\LunarLander.apk
+
+How do you list all installed packages?
+
+To list all the installed packages on an Android device:
+adb shell pm list packages
+
+To list only the system packages, use the “-s” option:
+adb shell pm list packages -s
+
+To list only 3rd party (or non-system) packages, use the “-3” option:
+db shell pm list packages -3
+
+How do you uninstall apps via command line?
+adb shell pm uninstall -k com.packagename
+
+Example:
+adb shell pm uninstall -k package:com.android.smoketest
+
+The package installed was : package:com.estrongs.android.pop

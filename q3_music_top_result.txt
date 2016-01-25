@@ -1,0 +1,19 @@
+User 12%, System 5%, IOW 0%, IRQ 0%
+User 236 + Nice 0 + Sys 112 + Idle 1572 + IOW 7 + IRQ 0 + SIRQ 9 = 1936
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  326  4   6% S    29 140416K   7440K  fg media    /system/bin/mediaserver
+12735  4   2% R    63 1507956K 123964K  fg u0_a84   com.google.android.music:ui
+  280  4   2% S    17 156892K   6764K  fg system   /system/bin/surfaceflinger
+ 1001  7   0% S   143 1497184K 101404K  fg system   system_server
+14544  4   0% D     1      0K      0K     root     mdss_fb0
+14751  0   0% R     1   4404K   1376K unk shell    top
+  724  3   0% S     7  59168K    480K unk system   /system/bin/mm-pp-daemon
+  122  0   0% S     1      0K      0K unk root     kswapd0
+  278  6   0% S     1   2484K    348K unk system   /system/bin/servicemanager
+  225  4   0% S     1      0K      0K unk root     irq/391-lsm6db0
+
+Issue the command top –m 10. What does it do? 
+It shows the top 10 most cpu usage running processes 
+
+

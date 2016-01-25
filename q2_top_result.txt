@@ -1,0 +1,34 @@
+
+
+
+User 0%, System 0%, IOW 0%, IRQ 0%
+User 6 + Nice 1 + Sys 33 + Idle 772102 + IOW 2003 + IRQ 0 + SIRQ 0 = 774145
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  916  5   0% S   144 1547928K  96880K  fg system   system_server
+16507  1   0% R     1   4404K   1380K unk shell    top
+19652  4   0% S    45 1145372K  64908K  fg u0_a134  cn.kuwo.kwplayerhd
+14397  4   0% S     1      0K      0K     root     kworker/u16:4
+  173  4   0% S     1      0K      0K unk root     cfinteractive
+  198  4   0% S     1      0K      0K unk root     mmcqd/0
+  379  2   0% R     1      0K      0K     root     migration/2
+    8  5   0% S     1      0K      0K unk root     rcu_preempt
+  634  4   0% S     1   3668K    436K unk nobody   /system/bin/msm_irqbalance
+   39  6   0% D     1      0K      0K     root     kworker/u17:0
+  122  4   0% S     1      0K      0K unk root     kswapd0
+   15  5   0% S     1      0K      0K     root     migration/5
+   16  5   0% S     1      0K      0K     root     ksoftirqd/5
+   18  5   0% S     1      0K      0K     root     kworker/5:0H
+   19  6   0% S     1      0K      0K     root     migration/6
+
+top 10:
+system_server
+top
+cn.kuwo.kwplayerhd
+kworker/u16:4
+cfinteractive
+mmcqd/0
+migration/2
+rcu_preempt
+/system/bin/msm_irqbalance
+kworker/u17:0
